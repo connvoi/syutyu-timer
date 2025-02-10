@@ -47,9 +47,9 @@ class MyApp extends StatelessWidget {
 /// -------------------------------
 class PomodoroModel extends ChangeNotifier {
   // デフォルト設定（単位は秒）
-  //int workDuration = 25 * 60;
+  int workDuration = 25 * 60;
   //for debug 10 sec worktime
-  int workDuration = 10;
+  //int workDuration = 10;
   int breakDuration = 5 * 60 ;
   int totalCycles = 4;
 
